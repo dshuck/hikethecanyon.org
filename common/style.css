@@ -1,0 +1,303 @@
+/* Authored by Tim Rauter October 2005 */
+
+
+
+body {
+margin: 30px auto;
+background-color: #646464;
+}
+
+td {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+color: #555555;
+text-align: left;
+}
+
+a {
+color: #FF9600;
+font-weight: bold;
+text-decoration: none;
+}
+
+a:hover {
+color: #FF9600;
+font-weight: bold;
+text-decoration: underline;
+}
+.noLink	{
+color: #FF9600;
+font-weight: bold;
+cursor:pointer;
+text-decoration: none;
+}
+.noLink:hover {
+text-decoration: underline;
+cursor:hand;
+}
+.title {
+font-size: 12px;
+font-weight: bold;
+color: #FF5A00;
+}
+
+.header {
+height: 110px;
+background-image: url(/images/headerbg.gif);
+background-repeat: no-repeat;
+background-color: #646464;
+}
+
+.headerleft {
+padding: 15px 0 0 15px;
+}
+
+.headerright {
+padding: 15px 15px 0 0;
+}
+
+.mainbody {
+background-image: url(/images/mainbodybg.gif);
+background-repeat: repeat-y;
+background-color: #646464;
+}
+
+.mainleft {
+padding: 0 0 0 20px;
+}
+
+.dividervert {
+background-image: url(/images/divider_vert.gif);
+background-repeat: repeat-y;
+}
+
+.mainright {
+padding: 10px 15px 0 5px;
+}
+
+.footer {
+height: 43px;
+margin: 0;
+background-image: url(/images/footerbg.gif);
+background-repeat: no-repeat;
+background-color: #646464;
+}
+
+.footerleft {
+padding: 8px 0 0 35px;
+font size: 9px;
+}
+
+.footerright {
+text-align: right;
+padding: 8px 35px 0 0;
+font size: 9px;
+}
+
+.poweredBy {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+color: #555555;
+}
+.pageTitle	{
+
+}
+.clear{
+height:0;
+line-height:0;
+clear:both;
+}
+h1	{
+width:100%;
+text-align:center;
+color:#FF6100;
+font-size:18px;
+padding-top:6px;
+margin-bottom:15px;
+}
+h2	{
+font-size:15px;
+}
+
+.hiddenBlock {
+float:left;
+margin-left:40px;
+border:1px solid #CCCCCC;
+display:none;
+}
+.regDateTitle	{
+font-weight:bold;
+text-align:center;
+}
+.regDateHeadingLeft	{
+clear:both;
+float:left;
+width:125px;
+text-align:center;
+}
+.regDateHeadingRight	{
+float:left;
+width:125px;
+text-align:center;
+}
+.regDateLeft	{
+clear:both;
+float:left;
+border:1px solid #CCCCCC;
+margin:3px;
+width:110px;
+}
+.regDateRight	{
+float:left;
+border:1px solid #CCCCCC;
+margin:3px;
+width:110px;
+}
+
+
+
+/* start of galleon styles */
+.tMain {
+	background-color: #66ccff; 
+}
+
+.tHeader {
+	background-color: #6699ff;
+	
+}
+/*
+td {
+	font-family: Verdana, Arial;
+	font-size: 11px;
+}
+*/
+.linktext, .linktext a {
+	font-size: 9px;
+	color: #235577;
+}
+
+.adminAppTitle {
+	font-family: Verdana, Arial;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.adminLeftMenu, .adminLeftMenu a {
+	background-color: #66ccff;
+	color: #000000;
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	
+}
+
+.adminPageHeader {
+	font-family: Verdana, Arial;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.adminListHeader {
+	background-color: #6699ff;
+	font-weight: bold;
+}
+
+.adminListHeaderText, .adminListHeaderText a {
+	color: black;
+}
+
+.adminListTable, .adminListTable td {
+	border-style: solid;
+	border-width: 1px;
+}
+
+.adminList0 {
+	background-color: white;
+}
+
+.adminList1 {
+	background-color: #ffff99;
+}
+
+.topMenu {
+	font-family: Verdana;
+	font-size: 11px;
+	color: #555555;
+}
+
+.topMenu a {
+	color: #555555;
+}
+
+.galleonFooter {
+	font-family: Verdana;
+	font-size: 10px;
+	color: #000000;
+	margin-top: 20px;
+}
+
+.tableDisplay {
+	background-color: #FE8C29;;
+}
+
+.tableHeader {
+	background-color: #FE8C29;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+.tableSubHeader, .tableSubheader a {
+	background-color: #eff4f6;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 10px;
+	color: #555555;
+}
+
+.tableRow0, .tableRow0 a {
+	background-color: #ffffff;
+	font-family: Verdana;
+	font-size: 11px;
+	color: #235577;
+}
+
+.tableRow1, .tableRow1 a {
+	background-color: #eff4f6;
+	font-family: Verdana;
+	font-size: 11px;
+	color: #555555;
+}
+
+.tableRowMain, .tableRowMain a {
+	background-color: #eff4f6;
+	font-family: Verdana;
+	font-size: 11px;
+	color: #555555;
+}
+
+.tableMessageCell {
+	background-color: #e0e8eb;
+}
+
+.tableMessageCellRight {
+	background-color: #ffffff;
+}
+
+.pageText {
+	font-family: Verdana;
+	font-size: 10px;
+	color: #000000;
+}
+
+.pageText a {
+	color: #555555;
+}
+
+.formBox, .formDropDown {
+	width: 250px;
+	font-family: Verdana;
+	font-size: 11px;
+}
+/* end of galleon styles * /
